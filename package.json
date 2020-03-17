@@ -7,8 +7,7 @@
     "run:android": "react-native run-android",
     "run:ios": "react-native run-ios --simulator=\"iPhone X\"",
     "build:apk": "cd android && ./gradlew assembleRelease",
-    "test": "jest",
-    "prepare": "patch-package"
+    "test": "jest"
   },
   "dependencies": {
     "@react-native-community/async-storage": "^1.8.1",
@@ -20,6 +19,7 @@
     "@react-navigation/native": "^5.0.10",
     "react": "16.9.0",
     "react-native": "0.61.5",
+    "react-native-fbsdk": "^1.1.2",
     "react-native-gesture-handler": "^1.6.0",
     "react-native-reanimated": "^1.7.0",
     "react-native-safe-area-context": "^0.7.3",

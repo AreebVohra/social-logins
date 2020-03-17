@@ -29,10 +29,13 @@ const AppNavigator = () => {
                         return <AntDesign name={iconName} size={size} color={color} />;
                     },
                 })}
+
                 tabBarOptions={{
                     activeTintColor: 'tomato',
                     inactiveTintColor: 'gray',
                 }}
+
+                initialRouteName="Facebook"
             >
                 <Tab.Screen name="Google" component={GoogleScreen} />
                 <Tab.Screen name="Facebook" component={FacebookScreen} />
